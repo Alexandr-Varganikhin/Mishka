@@ -9,9 +9,89 @@
   <script src="js/picturefill.js" async></script>
 </head>
 
-<body>
-  <main class="page">
-    <h1>начинаем новый проект</h1>
+<body class="page">
+  <header class="page_header">
+    <nav class="main-nav">
+      <button class="main-nav_open"></button>
+      <a href="#" class="main-nav_logo">
+        <picture>
+          <img src="img/mishka-logo-mobile.svg.png" alt="логотип сайта">
+        </picture>
+      </a>
+      <ul class="main-nav_list">
+        <li class="main-nav_item">
+          <a href="#" class="main-nav_link">Каталог товаров</a>
+        </li>
+        <li class="main-nav_item">
+          <a href="#" class="main-nav_link">Вязание на заказ</a>
+        </li>
+        <li class="main-nav_item">
+          <a href="#" class="main-nav_link">Поиск по сайту</a>
+        </li>
+        <li class="main-nav_item">
+          <a href="#" class="main-nav_link">Корзина: пока пуста</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main class="page_main">
+    <section class="decoration">
+      <div class="decoration_product">
+        <h1 class="decoration_title">Милые штуки ручной работы для дома</h1>
+        <div class="decoration_home">
+          <div class="decoration_interior">
+            <p class="decoration_description">Предметы интерьера</p>
+          </div>
+          <div class="decoration_toys">
+            <p class="decoration_description">Детские игрушки</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="sentence">
+      <div class="sentence_entry">
+        <h2 class="sentence_title">Вязаные корзинки</h2>
+        <p class="sentence_week">товар недели</p>
+      </div>
+      <div class="sentence_description">
+        <p class="sentence_text">Экологически чистая пряжа, ручная работа. Доступны в шести расцветках, и трех размерах.
+        </p>
+        <ul class="sentence_list">
+          <li class="sentence_item">
+            <p class="sentence_options">Цвет:<span>&#171;Тиффани&#187;/серый</span></p>
+          </li>
+          <li class="sentence_item">
+            <p class="sentence_options">Диаметр:<span>25 см</span></p>
+          </li>
+          <li class="sentence_item">
+            <p class="sentence_options">Высота:<span>15 см</span></p>
+          </li>
+        </ul>
+      </div>
+      <div class="sentence_product">
+        <picture>
+          <img src="img/three-baskets-mobile.png" alt="три вязаные корзинки">
+        </picture>
+      </div>
+      <div class="sentence_cost">
+        <p class="sentence_price">Цена: 990 руб.</p>
+        <button class="sentence_order">заказать</button>
+      </div>
+    </section>
+<section class="advantages">
+<h2 class="advantages_title">Коротко о нас:</h2>
+<ul class="advantages_list">
+  <li class="advantages_item advantages_item--ecology">Экологически чистые материалы</li>
+  <li class="advantages_item advantages_item--cost">Скандинавский стиль по российской цене</li>
+  <li class="advantages_item advantages_item--like">Увеличивает лайки на фотографиях</li>
+  <li class="advantages_item advantages_item--clew">Связано вручную с любовью и умилением</li>
+  <li class="advantages_item advantages_item--rocket">Поддержка отечественного производителя</li>
+  <li class="advantages_item advantages_item--present">Поставляется в подарочной упаковке</li>
+</ul>
+</section>
+<section class="reviews">
+<h2 class="reviews_title">Отзывы</h2>
+</section>
   </main>
 
 </body>
